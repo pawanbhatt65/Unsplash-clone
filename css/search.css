@@ -1,0 +1,13 @@
+.form-search-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(114, 115, 116);
+  padding: 30px;
+}
+input[type="search"]#search.search-input {
+  width: 90%;
+}
+input[type="search"]#search.search-input ~ input[type="submit"]#searchBtn {
+  margin-top: 0px;
+}

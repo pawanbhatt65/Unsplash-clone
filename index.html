@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Photo</title>
+    <script src="https://kit.fontawesome.com/f7950e1a81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-content">
+            <h2>Logo</h2>
+            <p>The best royalty free images you can find here.</p>
+            <div class="content">
+                <form action="search.html" method="get" class="form-input">
+                    <input type="search" name="search" id="search" autocomplete="off" placeholder="Search...">
+                    <input type="submit" value="Search" name="searchBtn" id="searchBtn">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- image popup start -->
+    <section class="image-popup hide">
+        <div class="button-popup">
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <a href="javascript:void(0)" class="download-btn">Download</a>
+        </div>
+        <div class="img-box">
+            <img src="images/img2.jpg" alt="" class="img-fluid">
+        </div>
+        <button class="controlls prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="controlls next"><i class="fas fa-chevron-right"></i></button>
+    </section>
+    <!-- image popup end -->
+
+    <!-- gallery start -->
+    <section class="gallery">
+        <div class="container">
+
+        </div>
+    </section>
+    <!-- gallery end -->
+    <script src="script.js"></script>
+</body>
+
+</html>
